@@ -1,3 +1,23 @@
+### Group Project completed with team mates at Brainstation:
+
+### API Functionality Summary:
+
+- **Express Framework**: Utilization of Express for server setup and middleware management, providing a robust backend framework for API development.
+- **Environment Variables**: Use of `dotenv` for managing environment variables, enhancing security and configuration flexibility.
+- **CORS Configuration**: Implementation of CORS to allow cross-origin requests, essential for client-side interactions with the API.
+- **Routing**: Establishment of distinct routes for handling warehouse and inventory data, enabling structured access and manipulation of resources.
+- **Express JSON Middleware**: Use of `express.json()` for parsing JSON data in request bodies, facilitating the handling of JSON input.
+- **Database Interaction**: Integration with a MySQL database using Knex.js to query and manipulate data, ensuring efficient data storage and retrieval.
+- **CRUD Operations**: Comprehensive CRUD (Create, Read, Update, Delete) functionality for inventory items through RESTful endpoints.
+  - **Create**: Endpoint to add new inventory items with validation to ensure all necessary data is provided.
+  - **Read**: Endpoints to retrieve all inventory items or a single item by ID, including detailed joins to include warehouse data.
+  - **Update**: Endpoint to update existing inventory items with robust validation to ensure data integrity.
+  - **Delete**: Endpoint to delete inventory items, ensuring data can be cleanly removed when necessary.
+- **Data Validation**: Implementation of input validation to prevent incorrect data entry and to ensure database integrity.
+- **Error Handling**: Robust error handling to provide clear feedback on operation failures, improving the API's reliability and ease of debugging.
+- **Seeding**: Database seeding functionality to populate the database with initial data for development and testing purposes.
+
+
 
 # team-4-instock-server
 
